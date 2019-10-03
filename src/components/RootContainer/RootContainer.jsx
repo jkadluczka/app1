@@ -1,6 +1,6 @@
 import React from 'react';
-import Toolbar from './ToolbarContainer/ToolbarContainer'
-import PostContainer from './PostContainer/PostContainer'
+import NavigationBar from './ToolbarContainer/NavigationBarContainer'
+import Posts from './PostsContainer/PostsContainer'
 
 
 class RootContainer extends React.Component {
@@ -8,8 +8,8 @@ class RootContainer extends React.Component {
     render() {
         return (
             <div>
-                <Toolbar/>
-                <PostContainer />
+                <NavigationBar/>
+                <Posts />
             </div>
         )
     }

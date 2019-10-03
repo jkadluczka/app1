@@ -6,7 +6,8 @@ import Add from '@material-ui/icons/Add'
 
 
 class NavigationBar extends React.Component {
-    render(){
+
+    render() {
         return (
             <AppBar postition="static">
                 <IconButton onClick={() => this.props.getAllPosts()} >
